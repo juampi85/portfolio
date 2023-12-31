@@ -1,8 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
+    <!-- Metadatos -->
     <meta charset="UTF-8" />
+    <meta name="author" content="Juan Pablo Accinelli" />
+    <meta
+      name="description"
+      content="Portfolio con proyectos de Juan Pablo Accinelli"
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, Javascript, React, Node, Express, Sequelize, Git, Bootstrap, Tailwind, Zustand, Redux"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Titulo -->
+    <title>Juampi Accinelli | Fullstack Web Developer</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/juampi.jpg" />
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -10,16 +24,82 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="./images/juampi.jpg" width="50" alt="logo de mi marca personal">
+          </a>
+          <ul class="navbar-nav d-flex justfy-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-dev rounded-circle" src="./images/juampi_centro.jpg" alt="Foto de Juampi Accinelli">
+        <h1>Hola, soy Juampi Accinelli</h1>
+        <h2>Soy un Programador Web Full Stack que ofrece soluciones prácticas, innovadoras y escalables que se adaptan a tus objetivos.</h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="./images/hero-inferior.svg" alt="Foto de monitor con una laptop y los íconos de HTML, CSS, Javascript y React">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo"> ¿Quién soy...?</h2>
+        <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quis odit voluptatum at sequi error quod sint, suscipit praesentium placeat quaerat delectus voluptatibus accusantium ad ut laborum a voluptatem consectetur?</p>
+      </div>
+    </section>
+
+
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-    <title>PORTFOLIO</title>
-  </head>
-  <body>
-    portfolio
   </body>
 </html>
