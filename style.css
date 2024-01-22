@@ -1,10 +1,10 @@
 /* Navbar */
-.navbar{
+.navbar {
   padding: 2rem;
   background-color: #f5f6f7;
 }
 
-.navbar-collapse{
+.navbar-collapse {
   align-items: center;
   justify-content: space-between;
 }
@@ -35,7 +35,7 @@ h1 {
 .seccion-titulo {
   font-size: 2rem;
   padding: 15px 0;
-  font-family: "Rubik Dirt", cursive;
+  font-family: 'Rubik Dirt', cursive;
 }
 
 .seccion-descripcion {
@@ -48,6 +48,11 @@ h1 {
   padding: 0 1rem;
 }
 
+.btn-info {
+  font-size: 1.1rem;
+  margin: 20px;
+}
+
 .texto-negro {
   color: black;
 }
@@ -55,7 +60,6 @@ h1 {
 .texto-blanco {
   color: white;
 }
-
 
 /* Seccion Hero */
 .hero {
@@ -82,7 +86,6 @@ h1 {
   color: #615151;
 }
 
-
 /* Seccion Sobre mi */
 .sobre-mi {
   height: 500px;
@@ -93,7 +96,6 @@ h1 {
   max-width: 600px;
   text-align: center;
 }
-
 
 /* Experiencia */
 .experiencia {
@@ -124,7 +126,6 @@ h1 {
   }
 }
 
-
 .experiencia-titulo {
   font-size: 25px;
   font-weight: bold;
@@ -141,7 +142,6 @@ h1 {
   margin: 5px;
 }
 
-
 /* Proyectos */
 .proyectos-recientes {
   padding: 40px;
@@ -150,10 +150,14 @@ h1 {
 .proyectos-recientes img {
   height: 100%;
   width: 100%;
-  padding: 10px;
+  /* padding: 10px; */
   border-radius: 15px;
   display: block;
   transition: all 0.2s ease;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 1.5rem;
 }
 
 .proyectos-contenedor {
@@ -199,15 +203,24 @@ h1 {
   margin: 10px;
 }
 
-
 /* RESPONSIVE */
-@media screen and (max-width: 767px)  {
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .navbar-brand {
     display: none;
   }
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 700px) {
   .hero-inferior-imagen {
     max-width: 600px;
   }
