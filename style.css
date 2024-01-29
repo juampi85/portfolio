@@ -87,6 +87,26 @@ h1 {
   color: #615151;
 }
 
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(13, 110, 253);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 2rem;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease-in-out;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #0252a8;
+}
+
+
 /* SOBRE MI */
 .sobre-mi {
   height: 500px;
