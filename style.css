@@ -9,6 +9,10 @@
   justify-content: space-between;
 }
 
+.idioma {
+  height: 45px;
+}
+
 /* ESTILOS GENERALES */
 section {
   display: flex;
@@ -91,7 +95,7 @@ h1 {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: rgb(13, 110, 253);
+  background-color: grey;
   color: white;
   border: none;
   border-radius: 50%;
